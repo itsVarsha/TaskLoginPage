@@ -1,0 +1,49 @@
+body{
+    background: url(../images/loginbg.png);
+    height: cover;
+    background-size: cover;
+    background-position: center;
+    margin: cover;
+}
+form {
+    background: rgba(253, 253, 253, 0.466);
+    margin-bottom:10%;
+    margin: 7% auto;
+    max-width: 45%;
+    float: none;
+    padding: 2%;
+    position:relative;
+    z-index: 1;
+}
+.form h2{
+    text-align: center;
+}
+
+.form .message{
+    margin: 10px 0 0 ;
+    text-align: left;
+    color: aliceblue;
+    font-weight: bold;
+}
+.form .message a{
+    margin: 10px 0 0 ;
+    text-align: left;
+    color: rgb(41, 50, 172);
+    font-weight: bold;
+}
+.form .btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: auto;
+    cursor: pointer;
+    border:0;
+}
+.form .btn:hover,.form .btn:active{
+    background:#a9ecee
+}
+.form .register-form{
+    display:none;
+    
+}
+
+
