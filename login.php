@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <title> User Login</title>
+    <title> MY Website</title>
     <link href="css/loginpage.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
@@ -32,7 +32,7 @@
         
             <!-- registration form-->
             
-            <form  class="register-form" action="registration.php" method="post">
+            <form  class="register-form" action="registration.php" method="post" enctype="multipart/form-data" >
                 <h2> Registration </h2>
                 <div class="form-group">
                 <label>Name</label>
@@ -52,10 +52,10 @@
                 <input type="password" name="password" class="form-control" required>
                 </div>
                 <div class="form-group">
-                <label>Address</label>
-                <input type="text" name="profile" class="form-control" required>
+                <label>Profile</label>
+                <input type="file" name="profile"  class="form-control"  required>
                 </div>
-                <button type="submit" class="btn btn-primary">Register</button>
+                <input type="submit" name="upload" class="btn btn-primary" value="REGISTER"  >
                 <p class="message">Already Registered? <a href="#">Login</a>
             </form>
         

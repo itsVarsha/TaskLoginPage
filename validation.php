@@ -14,6 +14,7 @@ $num = mysqli_num_rows($result);
 
 if ($num == 1) {
     $_SESSION['username']=$name;
+    $_SESSION['profile']=$profile;
     header("Location:home.php " );
 }
 else {
