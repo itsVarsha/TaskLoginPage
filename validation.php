@@ -5,6 +5,8 @@ $con = mysqli_connect('localhost', 'test','test','login_registration') or die ( 
 $name = $_POST['user_name']; 
 $password=$_POST['password'];
 $profile = $_POST['profile'];
+$contact = $_POST['contact'];
+$email = $_POST['email'];
 
 $details = "SELECT * from registration where username = '$name' && password='$password'";
   
