@@ -1,9 +1,12 @@
 body{
-    background: url(../images/loginbg.png);
+    background: url(../images/mountain.svg);
     height: cover;
     background-size: cover;
     background-position: center;
     margin: cover;
+    width: 100%;
+    height:150%;
+    max-width :200%
 }
 form {
     background: rgba(253, 253, 253, 0.466);
@@ -12,11 +15,14 @@ form {
     max-width: 45%;
     float: none;
     padding: 2%;
-    position:relative;
-    z-index: 1;
+
 }
 .form h2{
     text-align: center;
+   
+}
+.h2, h2 {
+    font-size: 6vw;
 }
 
 .form .message{
@@ -24,6 +30,7 @@ form {
     text-align: left;
     color: aliceblue;
     font-weight: bold;
+    font-size: 2.5vw;
 }
 .form .message a{
     margin: 10px 0 0 ;
@@ -31,19 +38,32 @@ form {
     color: rgb(41, 50, 172);
     font-weight: bold;
 }
-.form .btn{
+.form .btn {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     width: auto;
     cursor: pointer;
-    border:0;
+    border: 0;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    font-size: 2vw;
 }
 .form .btn:hover,.form .btn:active{
     background:#a9ecee
 }
-.form .register-form{
-    display:none;
-    
+
+.form-group {
+    margin-bottom: 15px;
+    font-size: 2vw;
 }
-
-
+.h1, h1 {
+    font-size: 20vw;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
